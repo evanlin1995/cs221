@@ -1,0 +1,160 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.container-fluid {
+	/*position: */
+	height: 100%;
+	width: 100%;
+	/*width: 100%;*/
+	/*background-color: black;*/
+}
+
+#logo {
+	position: relative;
+	/*bottom: 100px;*/
+	top: 100px;
+	/*height: 90px;*/
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+}
+
+.navbar-default {
+  background-color: #1ab7fd;
+  border-color: #2294ff;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #96f1ff;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #96f1ff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #96f1ff;
+  background-color: #2294ff;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #96f1ff;
+  background-color: #2294ff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #2294ff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #2294ff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #96f1ff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #96f1ff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #96f1ff;
+    background-color: #2294ff;
+  }
+}
+
+#main-image {
+	position: relative;
+	display: block;
+	width: 600px;
+	margin: auto;
+	top: 100px; 
+}
+
+#ratings-container {
+	position: relative;
+	overflow: auto;
+	top: 140px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.rating {
+	/*display: inline-block;*/
+	padding: 5px 10px 5px 10px;
+	margin: 0 5px 0 5px;
+	border: 1px solid black;
+	height: 50px;
+	width: 80px;
+	min-width: 40px;
+	border-radius: 4px;
+}
+
+.color-one {
+	background-color: #e5be00;
+}
+
+.color-two {
+	background-color: #e0a802;
+}
+
+.color-three {
+	background-color: #dc9304;
+}
+
+.color-four {
+	background-color: #d87e07;
+}
+
+.color-five {
+	background-color: #d46909;
+}
+
+.color-six {
+	background-color: #cf540c;
+}
+
+.color-seven {
+	background-color: #cb3f0e;
+}
+
+.color-eight {
+	background-color: #c72a11;
+}
+
+.color-nine {
+	background-color: #c31513;
+}
+
+.color-ten {
+	background-color: #bf0016;
+}
+
+.btn-default:hover {
+	background-color: none;
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important;
+}
+
+
